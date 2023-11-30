@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Basics from "./Components/Basics";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+
+
+  return(
+    <div>
+      <Basics />
     </div>
-  );
+  )
 }
 
+
 export default App;
+
+
+
+// // Movies App => 
+
+// // state , action 
+
+
+// let selectedMovies = {} // intial Value   
+
+// let inputValue = ""  //  onChange => inputValue = "Avengers"
+
+
+// // action => select_a_Movie
+
